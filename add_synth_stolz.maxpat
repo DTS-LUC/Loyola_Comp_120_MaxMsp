@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 337.0, 703.0, 123.0, 33.0 ],
+					"patching_rect" : [ 337.0, 703.0, 125.0, 33.0 ],
 					"style" : "",
 					"text" : "Realtime control over master volume"
 				}
@@ -129,14 +129,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 314.0, 92.0, 146.0, 35.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 241.0, 92.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 != 0 then $i1 else out2 $i1"
+					"text" : "if $i1 != 0 then $i1"
 				}
 
 			}
@@ -318,18 +317,18 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 1096.0, 132.0, 257.0, 89.0 ],
+					"patching_rect" : [ 1096.0, 127.5, 257.0, 89.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 6, "obj-16", "gain~", "list", 0, 10.0, 6, "obj-20", "gain~", "list", 0, 10.0, 6, "obj-22", "gain~", "list", 0, 10.0, 6, "obj-26", "gain~", "list", 0, 10.0, 6, "obj-10", "gain~", "list", 0, 10.0, 6, "obj-14", "gain~", "list", 0, 10.0, 6, "obj-8", "gain~", "list", 0, 10.0, 6, "obj-2", "gain~", "list", 11, 10.0, 5, "obj-76", "flonum", "float", 0.0 ]
+							"data" : [ 6, "obj-16", "gain~", "list", 72, 10.0, 6, "obj-20", "gain~", "list", 86, 10.0, 6, "obj-22", "gain~", "list", 82, 10.0, 6, "obj-26", "gain~", "list", 63, 10.0, 6, "obj-10", "gain~", "list", 67, 10.0, 6, "obj-14", "gain~", "list", 73, 10.0, 6, "obj-8", "gain~", "list", 77, 10.0, 6, "obj-2", "gain~", "list", 91, 10.0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 6, "obj-16", "gain~", "list", 157, 10.0, 6, "obj-20", "gain~", "list", 157, 10.0, 6, "obj-22", "gain~", "list", 157, 10.0, 6, "obj-26", "gain~", "list", 157, 10.0, 6, "obj-10", "gain~", "list", 157, 10.0, 6, "obj-14", "gain~", "list", 157, 10.0, 6, "obj-8", "gain~", "list", 157, 10.0, 6, "obj-2", "gain~", "list", 156, 10.0, 5, "obj-76", "flonum", "float", 0.0 ]
+							"data" : [ 6, "<invalid>", "gain~", "list", 157, 10.0, 6, "<invalid>", "gain~", "list", 157, 10.0, 6, "<invalid>", "gain~", "list", 157, 10.0, 6, "<invalid>", "gain~", "list", 157, 10.0, 6, "<invalid>", "gain~", "list", 157, 10.0, 6, "<invalid>", "gain~", "list", 157, 10.0, 6, "<invalid>", "gain~", "list", 157, 10.0, 6, "<invalid>", "gain~", "list", 156, 10.0, 5, "obj-76", "flonum", "float", 0.0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 6, "obj-16", "gain~", "list", 84, 10.0, 6, "obj-20", "gain~", "list", 91, 10.0, 6, "obj-22", "gain~", "list", 82, 10.0, 6, "obj-26", "gain~", "list", 79, 10.0, 6, "obj-10", "gain~", "list", 72, 10.0, 6, "obj-14", "gain~", "list", 67, 10.0, 6, "obj-8", "gain~", "list", 72, 10.0, 6, "obj-2", "gain~", "list", 72, 10.0, 5, "obj-76", "flonum", "float", 0.0 ]
+							"data" : [ 6, "<invalid>", "gain~", "list", 84, 10.0, 6, "<invalid>", "gain~", "list", 91, 10.0, 6, "<invalid>", "gain~", "list", 82, 10.0, 6, "<invalid>", "gain~", "list", 79, 10.0, 6, "<invalid>", "gain~", "list", 72, 10.0, 6, "<invalid>", "gain~", "list", 67, 10.0, 6, "<invalid>", "gain~", "list", 72, 10.0, 6, "<invalid>", "gain~", "list", 72, 10.0, 5, "obj-76", "flonum", "float", 0.0 ]
 						}
  ],
 					"stored1" : [ 0.160784, 0.705882, 0.713726, 1.0 ],
@@ -352,7 +351,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 7.739362, 0.693333, 0, 34.569149, 0.653333, 0, 58.303192, 0.253333, 0, 79.973404, 0.28, 0, 84.61702, 0.64, 0 ],
+					"addpoints" : [ 1.031915, 0.733333, 0, 13.414893, 0.693333, 0, 56.755318, 0.64, 0, 73.781914, 0.813333, 0, 90.80851, 0.506667, 0, 97.0, 0.0, 0 ],
 					"domain" : 97.0,
 					"id" : "obj-37",
 					"maxclass" : "function",
@@ -577,7 +576,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 803.0, 108.5, 150.0, 20.0 ],
+					"patching_rect" : [ 894.0, 92.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "<- User Input"
 				}
@@ -625,14 +624,19 @@
 			}
 , 			{
 				"box" : 				{
+					"blackkeycolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"hkeycolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "kslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 462.0, 92.0, 336.0, 53.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 336.0, 53.0 ],
+					"patching_rect" : [ 462.0, 83.0, 432.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 462.0, 92.0, 576.0, 68.0 ],
+					"range" : 61,
+					"selectioncolor" : [ 0.0, 0.533333, 0.168627, 1.0 ],
 					"style" : ""
 				}
 
@@ -1445,18 +1449,8 @@
 					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 323.5, 159.0, 471.5, 159.0 ],
+					"midpoints" : [ 250.5, 159.0, 471.5, 159.0 ],
 					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 450.5, 138.0, 126.5, 138.0 ],
-					"source" : [ "obj-4", 1 ]
 				}
 
 			}
@@ -1526,15 +1520,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1595,16 +1580,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-61", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 140.5, 852.0, 91.5, 852.0 ],
-					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -1761,7 +1736,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 323.5, 69.0, 323.5, 69.0 ],
+					"midpoints" : [ 323.5, 69.0, 250.5, 69.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
