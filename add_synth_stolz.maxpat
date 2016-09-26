@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1446.0, 911.0 ],
+		"rect" : [ 34.0, 79.0, 1852.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 232.0, 381.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 894.0, 114.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "note values in the range 0-127"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-82",
@@ -83,9 +109,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 346.0, 738.0, 42.0, 22.0 ],
+					"patching_rect" : [ 345.0, 738.0, 49.0, 22.0 ],
 					"style" : "",
-					"text" : "ctlin 7"
+					"text" : "ctlin 17"
 				}
 
 			}
@@ -108,9 +134,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 728.0, 775.0, 48.0, 22.0 ],
+					"patching_rect" : [ 728.0, 775.0, 49.0, 22.0 ],
 					"style" : "",
-					"text" : "ctlin 11"
+					"text" : "ctlin 21"
 				}
 
 			}
@@ -130,12 +156,12 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 92.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 != 0 then $i1"
+					"text" : "if $i2 != 0 then $i1"
 				}
 
 			}
@@ -147,7 +173,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 314.0, 49.5, 50.0, 22.0 ],
+					"patching_rect" : [ 328.0, 49.5, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -160,7 +186,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 143.0, 100.0, 109.0, 22.0 ],
+					"patching_rect" : [ 113.0, 100.0, 109.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -185,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 77.0, 39.0, 80.0, 22.0 ],
+					"patching_rect" : [ 29.0, 41.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "ctlin"
 				}
@@ -549,9 +575,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 223.0, 24.0, 20.0 ],
+					"patching_rect" : [ 369.0, 223.0, 91.0, 20.0 ],
 					"style" : "",
-					"text" : "Hz",
+					"text" : "Frequency (Hz)",
 					"textcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 
@@ -560,12 +586,13 @@
 				"box" : 				{
 					"bgcolor" : [ 0.223529, 0.243137, 0.235294, 1.0 ],
 					"id" : "obj-29",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.0, 174.0, 219.0, 20.0 ],
+					"patching_rect" : [ 241.0, 174.0, 225.0, 47.0 ],
 					"style" : "",
-					"text" : "MIDI to frequency conversion (to Hz) ->",
+					"text" : "MIDI to frequency conversion (to Hz) ->\nConverts MIDI note numbers to fundamental frequency",
 					"textcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ]
 				}
 
@@ -1330,7 +1357,7 @@
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 563.25, 45.0, 323.5, 45.0 ],
+					"midpoints" : [ 563.25, 45.0, 337.5, 45.0 ],
 					"source" : [ "obj-33", 1 ]
 				}
 
@@ -1513,7 +1540,17 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 471.5, 156.0, 544.5, 156.0 ],
+					"midpoints" : [ 471.5, 148.0, 544.5, 148.0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 471.5, 138.0, 237.0, 138.0, 237.0, 87.0, 250.5, 87.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -1687,7 +1724,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 355.5, 771.0, 471.5, 771.0 ],
+					"midpoints" : [ 354.5, 771.0, 471.5, 771.0 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -1733,10 +1770,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 323.5, 69.0, 250.5, 69.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
