@@ -40,11 +40,11 @@
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 311.0, 100.0, 22.0 ],
-					"style" : ""
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 81.0, 311.0, 63.0, 22.0 ],
+					"style" : "",
+					"text" : "if $i1 < 36"
 				}
 
 			}
