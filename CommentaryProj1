@@ -1,0 +1,12 @@
+!.	additional modulation of parameters such as amplitude modulation (tremolo) or 
+frequency modulation (pitch bend/vibrato/FM synthesis)
+
+
+2.	User control, via MIDI, over pitch, duration (sustain points on the ADSR envelope), 
+and additional features such as AM or pitch bend. Use incoming Note, Control Change, 
+and (optionally) pitch bend messages
+
+Commentary: Tell me what your patcher does, what its features and user-controlled 
+parameters are. Tell me also if you are basing your ideas on other work you might have 
+looked at (cite your sources!), or give credit to any collaborators. Commentary could 
+be a separate text file or might be included in your patcher.
