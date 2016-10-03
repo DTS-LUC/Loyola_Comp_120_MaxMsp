@@ -1,12 +1,1 @@
-!.	additional modulation of parameters such as amplitude modulation (tremolo) or 
-frequency modulation (pitch bend/vibrato/FM synthesis)
-
-
-2.	User control, via MIDI, over pitch, duration (sustain points on the ADSR envelope), 
-and additional features such as AM or pitch bend. Use incoming Note, Control Change, 
-and (optionally) pitch bend messages
-
-Commentary: Tell me what your patcher does, what its features and user-controlled 
-parameters are. Tell me also if you are basing your ideas on other work you might have 
-looked at (cite your sources!), or give credit to any collaborators. Commentary could 
-be a separate text file or might be included in your patcher.
+This max patch takes user input from a keyboard using the notion object with the slider object. The output from the notion is used by both the slider and adsr objects. The adsr object takes values that are first scaled and then outputs them as frequencies. The attributes of the wave can be modified within the object, described by the comments. The kslider passes along midi values that are filtered by an if loop. That loop is triggered by the velocity of the note. The midi frequencies then pass through the motf object and are converted to frequency values. The frequencies then pass through different harmonics that can be adjusted by the user, or set by the preset control. This patch also features a master volume that can be adjusted using keyboard controls. As well as, a low frequency operator that can be adjusted as well.

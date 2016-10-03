@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 46.0, 93.0, 1055.0, 897.0 ],
+		"rect" : [ 587.0, 79.0, 1055.0, 897.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -218,8 +218,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 649.0, 245.0, 47.0, 36.0 ],
 					"style" : "",
-					"text" : "attack (ms)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "attack (ms)"
 				}
 
 			}
@@ -234,8 +233,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 725.5, 245.0, 48.0, 36.0 ],
 					"style" : "",
-					"text" : "decay (ms)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "decay (ms)"
 				}
 
 			}
@@ -248,10 +246,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 805.0, 339.0, 74.0, 36.0 ],
+					"patching_rect" : [ 798.0, 245.0, 74.0, 36.0 ],
 					"style" : "",
-					"text" : "sustain gain (0 -1.)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "sustain gain (0 -1.)"
 				}
 
 			}
@@ -266,8 +263,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 879.0, 245.0, 55.0, 36.0 ],
 					"style" : "",
-					"text" : "release (ms)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "release (ms)"
 				}
 
 			}
@@ -2155,10 +2151,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-102" : [ "number[2]", "number[2]", 0 ],
 			"obj-103" : [ "number[3]", "number[2]", 0 ],
+			"obj-100" : [ "flonum", "flonum", 0 ],
 			"obj-101" : [ "number[4]", "number[2]", 0 ],
-			"obj-100" : [ "flonum", "flonum", 0 ]
+			"obj-102" : [ "number[2]", "number[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
