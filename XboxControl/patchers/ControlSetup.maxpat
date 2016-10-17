@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 358.0, 79.0, 1206.0, 857.0 ],
+		"rect" : [ 34.0, 79.0, 1296.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,61 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
+					"id" : "obj-72",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 415.0, 578.0, 33.0, 22.0 ],
-					"style" : "",
-					"text" : "s #1"
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 900.0, 727.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 693.0, 52.0, 52.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 882.5, 624.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 585.0, 52.0, 52.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 986.0, 705.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 363.5, 639.0, 52.0, 52.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 747.0, 654.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 262.0, 639.0, 52.0, 52.0 ],
+					"style" : ""
 				}
 
 			}
@@ -661,34 +709,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 909.0, 648.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 377.0, 666.0, 55.0, 55.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-53",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 856.5, 648.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 263.0, 666.0, 55.0, 55.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"blinkcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"id" : "obj-51",
@@ -751,34 +771,6 @@
 					"patching_rect" : [ 497.0, 654.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 918.0, 481.0, 64.0, 64.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 882.5, 674.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 723.0, 55.0, 55.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-39",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 882.5, 622.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 609.0, 55.0, 55.0 ],
 					"style" : ""
 				}
 
@@ -1102,7 +1094,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"items" : [ "Xbox One Wired Controller", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Wireless Receiver", ",", "Apple IR", ",", "Apple Mikey HID Driver" ],
+					"items" : [ "Xbox One Wired Controller", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Mikey HID Driver", ",", "Wireless Receiver", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple IR" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1148,14 +1140,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-22",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.0, 363.0, 56.0, 38.0 ],
+					"patching_rect" : [ 239.0, 363.0, 56.0, 23.0 ],
 					"style" : "",
-					"text" : "29 -2848"
+					"text" : "11 0"
 				}
 
 			}
@@ -1263,10 +1254,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
+					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 887.5, 609.0, 866.0, 609.0 ],
+					"midpoints" : [ 887.5, 609.0, 756.5, 609.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1282,10 +1273,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
+					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 955.5, 633.0, 918.5, 633.0 ],
+					"midpoints" : [ 955.5, 633.0, 995.5, 633.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1319,7 +1310,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 743.5, 609.0, 892.0, 609.0 ],
@@ -1605,10 +1596,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 820.5, 609.0, 906.0, 609.0, 906.0, 657.0, 892.0, 657.0 ],
+					"midpoints" : [ 820.5, 609.0, 906.0, 609.0, 906.0, 657.0, 909.5, 657.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1647,15 +1638,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
