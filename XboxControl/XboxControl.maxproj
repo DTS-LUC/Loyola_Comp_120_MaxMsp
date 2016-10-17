@@ -2,8 +2,8 @@
 	"name" : "XboxControl",
 	"version" : 1,
 	"creationdate" : -736281765,
-	"modificationdate" : -736281756,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -735417397,
+	"viewrect" : [ 1.0, 45.0, 1080.0, 303.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"sampler.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effects.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
