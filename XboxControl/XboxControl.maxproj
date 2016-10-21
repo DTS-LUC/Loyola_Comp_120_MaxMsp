@@ -2,7 +2,7 @@
 	"name" : "XboxControl",
 	"version" : 1,
 	"creationdate" : -736281765,
-	"modificationdate" : -735417397,
+	"modificationdate" : -735101900,
 	"viewrect" : [ 1.0, 45.0, 1080.0, 303.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,6 +22,36 @@
 			}
 ,
 			"effects.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"MasterPatch.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ABXYcontrol.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"triggerControl.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dPadControl.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"homeButtons.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"joysticks.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
