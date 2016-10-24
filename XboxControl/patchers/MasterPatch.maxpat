@@ -38,11 +38,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 19,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 30.0, 43.0, 684.0, 22.0 ],
+					"style" : "",
+					"text" : "controlSetup"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 363.0, 203.0, 22.0 ],
+					"patching_rect" : [ 30.0, 250.0, 203.0, 22.0 ],
 					"style" : "",
 					"text" : "soundOut"
 				}
@@ -55,7 +68,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 298.0, 203.0, 22.0 ],
+					"patching_rect" : [ 30.0, 198.0, 203.0, 22.0 ],
 					"style" : "",
 					"text" : "sequencer"
 				}
@@ -68,7 +81,7 @@
 					"numinlets" : 12,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 192.0, 294.5, 22.0 ],
+					"patching_rect" : [ 30.0, 153.0, 294.5, 22.0 ],
 					"style" : "",
 					"text" : "effects"
 				}
@@ -87,77 +100,13 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 130.181824, 108.0, 94.136345, 22.0 ],
-					"style" : "",
-					"text" : "joysticks"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 317.0, 243.0, 81.0, 22.0 ],
-					"style" : "",
-					"text" : "homeButtons"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 66.800003, 243.0, 129.399994, 22.0 ],
-					"style" : "",
-					"text" : "dPadControl"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 230.363617, 108.0, 94.136375, 22.0 ],
-					"style" : "",
-					"text" : "triggercontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 30.0, 28.0, 94.13636, 22.0 ],
-					"style" : "",
-					"text" : "abxycontrol"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 114.63636, 132.0, 114.63636, 132.0 ],
 					"source" : [ "obj-1", 3 ]
 				}
 
@@ -167,6 +116,7 @@
 					"destination" : [ "obj-4", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 89.590904, 132.0, 89.590912, 132.0 ],
 					"source" : [ "obj-1", 2 ]
 				}
 
@@ -176,6 +126,7 @@
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 64.545456, 132.0, 64.545456, 132.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -185,115 +136,8 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 39.5, 132.0, 39.5, 132.0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 7 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 6 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 5 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 11 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 10 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 9 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 8 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -317,37 +161,121 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 4 ],
+					"destination" : [ "obj-1", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 3 ]
+					"midpoints" : [ 445.888885, 93.0, 114.63636, 93.0 ],
+					"source" : [ "obj-7", 11 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 3 ],
+					"destination" : [ "obj-1", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 2 ]
+					"midpoints" : [ 408.944458, 93.0, 89.590904, 93.0 ],
+					"source" : [ "obj-7", 10 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 2 ],
+					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 1 ]
+					"midpoints" : [ 372.0, 93.0, 64.545456, 93.0 ],
+					"source" : [ "obj-7", 9 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
+					"midpoints" : [ 298.111115, 93.0, 39.5, 93.0 ],
+					"source" : [ "obj-7", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 7 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 335.055542, 138.0, 214.818176, 138.0 ],
+					"source" : [ "obj-7", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 6 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 261.166656, 138.0, 189.77272, 138.0 ],
+					"source" : [ "obj-7", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 11 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 224.222229, 138.0, 315.0, 138.0 ],
+					"source" : [ "obj-7", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 187.277771, 138.0, 164.72728, 138.0 ],
+					"source" : [ "obj-7", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 10 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 150.333328, 138.0, 289.954559, 138.0 ],
+					"source" : [ "obj-7", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 113.388885, 93.0, 139.681824, 93.0 ],
+					"source" : [ "obj-7", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 9 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 76.444443, 93.0, 264.909088, 93.0 ],
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 8 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 39.5, 93.0, 239.863632, 93.0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -356,8 +284,48 @@
 					"destination" : [ "obj-5", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 357.5, 285.0, 223.5, 285.0 ],
-					"source" : [ "obj-9", 1 ]
+					"midpoints" : [ 667.555542, 192.0, 223.5, 192.0 ],
+					"source" : [ "obj-7", 17 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 593.666687, 192.0, 186.699997, 192.0 ],
+					"source" : [ "obj-7", 15 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 556.722229, 192.0, 149.899994, 192.0 ],
+					"source" : [ "obj-7", 14 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 519.777771, 192.0, 113.099998, 192.0 ],
+					"source" : [ "obj-7", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 482.833344, 192.0, 76.300003, 192.0 ],
+					"source" : [ "obj-7", 12 ]
 				}
 
 			}
@@ -366,13 +334,49 @@
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 388.5, 348.0, 223.5, 348.0 ],
-					"source" : [ "obj-9", 2 ]
+					"midpoints" : [ 704.5, 237.0, 223.5, 237.0 ],
+					"source" : [ "obj-7", 18 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "sampler.maxpat",
+				"bootpath" : "~/max7/XboxControl/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effects.maxpat",
+				"bootpath" : "~/max7/XboxControl/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sequencer.maxpat",
+				"bootpath" : "~/max7/XboxControl/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soundOut.maxpat",
+				"bootpath" : "~/max7/XboxControl/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ControlSetup.maxpat",
+				"bootpath" : "~/max7/XboxControl/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MasterPatch.maxpat",
+				"bootpath" : "~/max7/XboxControl/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ABXYcontrol.maxpat",
 				"bootpath" : "~/max7/XboxControl/patchers",
 				"type" : "JSON",
@@ -398,30 +402,6 @@
 			}
 , 			{
 				"name" : "joysticks.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sampler.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "effects.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sequencer.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soundOut.maxpat",
 				"bootpath" : "~/max7/XboxControl/patchers",
 				"type" : "JSON",
 				"implicit" : 1
