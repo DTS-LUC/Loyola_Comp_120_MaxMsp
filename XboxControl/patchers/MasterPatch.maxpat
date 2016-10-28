@@ -370,42 +370,6 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "MasterPatch.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ABXYcontrol.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "triggerControl.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dPadControl.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "homeButtons.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "joysticks.maxpat",
-				"bootpath" : "~/max7/XboxControl/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
  ],
 		"autosave" : 0
 	}
