@@ -39,13 +39,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 17,
+					"linecount" : 20,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 29.0, 155.0, 234.0 ],
+					"patching_rect" : [ 44.0, 29.0, 166.0, 275.0 ],
 					"style" : "",
-					"text" : "Task Order:\n\n- Understand what a smpler is, understand what a sequencer is\n- Confirm what the controller actually needs to do\n- Redesign controller commands accordingly\n\n- Develop a simple sampler\n--- MSP Sampling tutorials\n- Add 10-12 samples once finished\n\n- Create sequencer\n"
+					"text" : "Task Order:\n\n- Understand what a smpler is, understand what a sequencer is\n- Confirm what the controller actually needs to do\n- Redesign controller commands accordingly\n\n- Develop a simple sampler\n--- MSP Sampling tutorials\n- Add 10-12 samples once finished\n\n- Create sequencer\n\n\nEmbeding max controllers -bpatcher"
 				}
 
 			}
